@@ -1,0 +1,35 @@
+form{
+	width:500px;
+	margin:auto 
+}
+
+legend{
+	color:#1309f6;
+	font-size:12px;
+	font-family:Castellar Regular;
+	font-weight:bold
+}
+
+#usuario{
+	background-image:url('usuario.jpg');
+	background-repeat:no-repeat;
+	background-size:190px;
+	background-position:right top;
+	border:#004da7 groove;
+	border-width:10px;
+	border-style:groove double groove double;
+	background-color:#e5f8f8;
+	border-radius:25px
+}
+
+#sexo{
+	width:270px;
+	border:#004da7 groove;
+	background-color:#f2fffe
+	
+}
+
+input:hover{
+	background-color:#CECECE
+}
+

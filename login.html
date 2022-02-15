@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+ <header>
+  <title> Cadastro</title>
+  <meta charset="UTF-8">
+  <link rel='stylesheet' href='login.css'>
+  <link rel='icon' href='iconusuario.ico'>
+ </header>
+ 
+ <body>
+  <form method='Post' action='login.py'>
+	<fieldset id='usuario'><legend>Cadastro Aluno</legend>
+	<p><label for='nome'>Nome:<input type='text' id='nome' size=30 /></p>
+	<p><label for='senha'>Senha:<input type='password' id='senha' size=30 maxlength=8 placeholder='8 digitos' /></p>
+	<p><label for='email'>E-mail:<input type='email' id='email' size=30 /></p>
+	<fieldset id='sexo'><legend>Sexo</legend>
+	<p><label for='sexo1'><input type='radio' id='sexo1' name='sexo' />Feminino
+	<label for='sexo2'><input type='radio' id='sexo2' name='sexo' />Masculino
+	<label for='sexo3'><input type='radio' id='sexo3' name='sexo' />Outros
+	</fieldset>
+	<p><label for='nasc'>Data.Nasc:<input type='date' id='nasc' />
+	</fieldset>
+	</form>
+ 
+</body>
+</html>
